@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 3%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: -5px 10px 5px rgb(202, 205, 209) ;
+}
+
+/* Panel izquierdo */
+
+.left-panel {
+    width: 50%;
+    float: left;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.left-panel > h1 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+.fab {
+    margin: 20px 5px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+
+/* Form */
+
+form {
+    margin: 20px;
+}
+
+form > p {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    width: 70%;
+}
+
+input[type="button"] {
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 30px;
+    background-color: orangered;
+    margin: 10px;
+    padding: 10px 15px;
+    width: 40%;
+}
+ input {
+     margin: 5px;
+ }
+
+ /* Panel derecho */
+ 
+.right-panel {
+    width: 50%;
+    background: rgb(251,85,63);
+    background: linear-gradient(90deg, rgba(251,85,63,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;
+    float: right;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.right-panel > h1 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+
